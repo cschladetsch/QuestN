@@ -1,0 +1,7 @@
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.fbx[[:space:]]*.mp3
+git[[:space:]]lfs[[:space:]]track[[:space:]]*.tga[[:space:]]*.png[[:space:]]*.fbx[[:space:]]*.mp3
+git[[:space:]]lfs[[:space:]]track[[:space:]]*.tga[[:space:]]*.png[[:space:]]*.fbx filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
